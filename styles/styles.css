@@ -1,0 +1,83 @@
+/*Code developed by Mallikarjun, Pradeep
+Project #1
+Spring 2018
+Username : jadrn020,
+RED ID : 822032361*/
+
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+    cursor: default;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 20px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#left-panel {
+    float: left;
+    background: white;
+    width:30%;
+    height:100vh;
+
+}
+
+#right-panel {
+    float: left;
+    background: rgb(51,122,183);
+    width:70%;
+    height:100vh;
+}
+
+#form-pos {
+    margin-left: 15px;
+    margin-top: 50px;
+
+}
+
+body{
+    margin: 0px;
+    padding: 2px;
+}
+
+#login-error {
+    background: white;
+    border-color: red;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}

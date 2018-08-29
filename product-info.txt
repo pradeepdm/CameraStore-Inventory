@@ -1,0 +1,28 @@
+use jadrn020;
+
+INSERT INTO product (sku, catID, venID, manufacturerID ,description, features, cost, retail, quantity, image)
+VALUES('OLY-123', '1' ,'3', 'C56341', 'Point and shoot 24.3MP', 'Olympus Optical Zoom','500', '650', '10','OLY-123.jpg');
+INSERT INTO product (sku, catID, venID, manufacturerID ,description, features, cost, retail, quantity, image)
+VALUES('OLY-124', '2' ,'3', 'C56342', 'Advanced Amateur', 'Olympus Optical Zoom','500', '650', '0','OLY-124.jpg');
+INSERT INTO product (sku, catID, venID, manufacturerID ,description, features, cost, retail, quantity, image)
+VALUES('OLY-125', '3' ,'3', 'C56343', 'Point and shoot 24.3MP', 'Olympus Optical Zoom','500', '650', '4','OLY-125.jpg');
+INSERT INTO product (sku, catID, venID, manufacturerID ,description, features, cost, retail, quantity, image)
+VALUES('OLY-126', '4' ,'3', 'C56344', 'Advanced Amateur 24.3MP', 'Olympus Optical Zoom','500', '650', '0','OLY-126.jpg');
+INSERT INTO product (sku, catID, venID, manufacturerID ,description, features, cost, retail, quantity, image)
+VALUES('OLY-127', '5' ,'3', 'C56345', 'Point and shoot 24.3MP', 'Optical Underwater Zoom','500', '650', '0','OLY-127.jpg');
+INSERT INTO product (sku, catID, venID, manufacturerID ,description, features, cost, retail, quantity, image)
+VALUES('OLY-128', '6' ,'3', 'C56346', 'Advanced Amateur 24.3MP', 'Olympus mirrorless','500', '650', '20','OLY-128.jpg');
+INSERT INTO product (sku, catID, venID, manufacturerID ,description, features, cost, retail, quantity, image)
+VALUES('OLY-129', '7' ,'3', 'C56347', 'Underwater', '24.3MP SLR superzoom','500', '650', '0','OLY-129.jpg');
+INSERT INTO product (sku, catID, venID, manufacturerID ,description, features, cost, retail, quantity, image)
+VALUES('OLY-130', '1' ,'3', 'C56348', 'Point and shoot 24.3MP', '24.3MP SLR Camera Film','500', '650', '2','OLY-130.jpg');
+
+
+delete from product where sku = 'OLY-123';
+delete from product where sku = 'OLY-124';
+delete from product where sku = 'OLY-125';
+delete from product where sku = 'OLY-126';
+delete from product where sku = 'OLY-127';
+delete from product where sku = 'OLY-128';
+delete from product where sku = 'OLY-129';
+delete from product where sku = 'OLY-130';

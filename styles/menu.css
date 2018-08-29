@@ -1,0 +1,77 @@
+/*Code developed by Mallikarjun, Pradeep
+Project #1
+Spring 2018
+Username : jadrn020,
+RED ID : 822032361*/
+
+#tab-container .nav-pills > li > a {
+    border-radius: 4px 4px 0 0 ;
+}
+
+#tab-container .tab-content {
+
+    padding : 5px 15px;
+}
+
+.container {
+    padding-left: 5px;
+}
+
+label{
+    color:rgb(51,122,183);
+}
+
+#status {
+    text-align: center;
+    font-size: 20px;
+}
+
+.header-inner {
+    background-color: rgb(51,122,183);
+}
+
+#inventory-text {
+    color: white;
+}
+
+#status-container {
+    color : rgb(51,122,183);
+    border-color: red;
+    background-color: white;
+}
+
+#tab-container {
+    margin-bottom: 30px;
+}
+
+.tab-pane {
+    padding: 15px;
+}
+
+
+#header-nav {
+    padding: 2px;
+}
+
+.header-text {
+    color: white;
+}
+
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+li .header-text{
+    font-size: 20px;
+}
+
+img{
+    max-width:200px;
+    margin: 5px;
+    padding-top: 12px;
+}
+
+#header-nav {
+    background-color: rgb(51,122,183);
+}
